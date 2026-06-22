@@ -2771,8 +2771,9 @@
   /* ---------- LOGO STRIP placeholders ---------- */
   .cbx-r__nda-logos { text-align: center; }
   .cbx-r__nda-logos-head { font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted-2); margin-bottom: var(--s4); }
-  .cbx-r__nda-logos-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px 40px; }
-  .cbx-r__nda-logo { width: 116px; height: 30px; border-radius: 6px; background: var(--line-soft); }
+  .cbx-r__nda-logos-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px 44px; }
+  .cbx-r__nda-logo { height: 28px; width: auto; max-width: 130px; object-fit: contain; filter: grayscale(1); opacity: 0.55; transition: opacity 0.2s ease, filter 0.2s ease; }
+  .cbx-r__nda-logo:hover { filter: grayscale(0); opacity: 1; }
 
   /* ---------- PROOF band stats (NDA) ---------- */
   .cbx-r__nda-proof { background: var(--ink-deep); color: #fff; padding: 88px 0; }
